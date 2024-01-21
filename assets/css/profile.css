@@ -48,9 +48,6 @@ ul{
     border-radius: 10px;
   }
   
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-  }
 /* /scroll bar */
 
 /* navbar */
@@ -202,6 +199,10 @@ background: linear-gradient(180deg, rgba(255,91,0,1) 0%, rgba(255,123,0,1) 0%, r
     display: flex;
     margin-top: 20px;
     gap: 30px;
+}
+.information-menu a{
+    color: white;
+    text-decoration: none;
 }
 .bio-container{
     display: flex;
