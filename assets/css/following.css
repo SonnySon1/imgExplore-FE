@@ -152,18 +152,51 @@ background: linear-gradient(180deg, rgba(255,91,0,1) 0%, rgba(255,123,0,1) 0%, r
     transform: translate(-50%);
     bottom: 0px;
     background: rgb(255,91,0);
-    background: linear-gradient(180deg, rgba(255,91,0,1) 0%, rgba(255,123,0,1) 0%, rgba(142,100,91,1) 25%, rgba(12,70,152,1) 64%);
+background: linear-gradient(180deg, rgba(255,91,0,1) 0%, rgba(255,123,0,1) 0%, rgba(142,100,91,1) 25%, rgba(12,70,152,1) 64%);
     border-radius: 500px;
     filter: blur(160px);
 }
-.container-hiro-explore{
-        height: 228px;
+.wrapping-elemet{
+        padding: 20px;
         position: relative;
-        background-color: red;
+        background-color: #161a1f74;
         border-radius: 40px;
         margin-bottom: 30px;
 }
-.hiro-explore{
+.header-title{
+    display: flex;
+    justify-content: space-between;
+}
+.close-button{
+    font-size: 25px;
+    color: #FF5B00;
+    transition: all .3s ease-in-out;
+}
+.close-button:hover{
+    color: #cd4800;
+}
+.container-user-info{
+    margin-top: 53px;
+}
+.wrapping-user-info{
+    border-top: 1px solid #20262C;
+    padding: 5px;
+    border-bottom: 1px solid #20262C;
+    display: flex;
+    gap: 10px;
+    transition: all .3s ease-in-out;
+}
+.wrapping-user-info:hover{
+    background-color: #161a1fc3;
+}
+.profile-user-following{
+    width: 45px;
+    height: 45px;
+    position: relative;
+    border-radius: 100px;
+    background-color: #20262C;
+}
+.profile-user-following img{
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -172,66 +205,43 @@ background: linear-gradient(180deg, rgba(255,91,0,1) 0%, rgba(255,123,0,1) 0%, r
     top: 0;
     left: 0;
 }
-.category-explore{
+
+.user-identity div {
+    overflow: hidden;
+}
+
+.user-identity{
     display: flex;
-    gap: 20px;
-    overflow-y: hidden;
+    align-items: center;
     justify-content: space-between;
-}
-.category-explore > li{
-    background-color: #20262C;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
-    border-radius: 10px;
-    white-space: nowrap;
-    border: 1px solid transparent;
-    transition: all .3s ease-in-out;
-}
-.category-explore > li:hover{
-    border: 1px solid #FF5B00;
-}
-.input-search{
-    padding: 10px;
-    width: 33%;
-    background-color: transparent;
-    border: 1px solid white;
-    border-radius: 10px;
-    margin-top: 20px;
-    color: white;
-    transition: all .3s ease-in-out;
-}
-.input-search:focus{
-    box-shadow: 0 0 8px #FF5B00;
-    border: 1px solid #FF5B00;
-    outline: none;
-}
-.btn-search{
-    padding: 6px;
-    cursor: pointer;
-    position: relative;
-    right: 41px;
-    color: white;
-    background-color: transparent; border: 0;
-    font-size: 17px;
-    border-radius: 10px;
-}
-.container .image-container{
-    columns: 4 250px;
-    margin-top: 44px;
-    gap: 15px;
-}
-.container .image-container img{
-    margin-bottom: 10px;
-    border-radius: 5px;
     width: 100%;
+}
+.user-identity p{
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+}
+.follow-button-container button{
+    padding: 12px;
+    border-radius: 10px;
     cursor: pointer;
+    background-color: #20262C;
+    border: none;
+    border: 1px solid transparent;
+    color: rgb(186, 186, 186);
     transition: all .3s ease-in-out;
+    display: flex;
+    gap: 5px;
+}   
+.follow-button-container button:hover{
+    background-color: #1a1f24;
+    color: white;
+    border: 1px solid #FF5B00;
 }
-.container .image-container img:hover{
-   filter: grayscale(1);
-   transform: scale(1.03);
-}
+
+
 /* //body */
 
 /* responsive design */
@@ -244,13 +254,6 @@ background: linear-gradient(180deg, rgba(255,91,0,1) 0%, rgba(255,123,0,1) 0%, r
         width: 83%;
         z-index: 1000;
         background-color: #2D293C;
-    }
-    
-    .reload{
-        padding: 15px;
-        background-color: #B901F6;
-        border-radius: 100px;
-        text-align: center;
     }
     /* //navbar */
 }

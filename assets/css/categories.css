@@ -48,9 +48,6 @@ ul{
     border-radius: 10px;
   }
   
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-  }
 /* /scroll bar */
 
 /* navbar */
@@ -174,9 +171,6 @@ background: linear-gradient(180deg, rgba(255,91,0,1) 0%, rgba(255,123,0,1) 0%, r
     border-radius: 40px;
     top: 0;
     left: 0;
-}
-.container-category-categories{
-    /* background-color: red; */
 }
 
 .container-categories{
