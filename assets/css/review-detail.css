@@ -217,6 +217,20 @@ background: linear-gradient(180deg, rgba(255,91,0,1) 0%, rgba(255,123,0,1) 0%, r
     color: #FF5B00;
     font-weight: bold;
 }
+.btn-follow{
+    padding: 12px;
+    width: 106px;
+    background-color: #FF5B00;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #FF5B00;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.btn-follow:hover{
+    box-shadow: 0 0 20px #FF5B00;
+}
 .description{
     margin-top: 20px;
     font-weight: 300;
