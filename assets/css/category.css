@@ -175,58 +175,75 @@ background: linear-gradient(180deg, rgba(255,91,0,1) 0%, rgba(255,123,0,1) 0%, r
 .close-button:hover{
     color: #cd4800;
 }
-.container-update-users{
+.container-category-info{
+    overflow-x: scroll;
+}
+.container-add-category{
     margin-top: 53px;
-    gap: 39px;
-    display: flex;
+    margin-bottom: 20px;
 }
-.form-input-update-users {
-    /* background-color: #2D293C; */
-    width: 100%;
-}
-.input-distance-update-users select{
-    background-color: #1b1f27 !important;
-}
-.input-form{
-    margin-top: 5px;
-    width: 100%;
-    position: relative;
-    padding-top: 8px;
-    padding-left: 2px;
-    padding-bottom: 8px;
+.btn-category-add{
+    padding: 10px;
     border-radius: 10px;
-    background-color: transparent !important;
-    color: white;
-    border: 1px solid #FF5B00;
-    transition: all .3s ease-in-out;
-}
-.input-form:focus{
-   outline:  none;
-   border: 1px solid #FF5B00; 
-   box-shadow: 0 0 8px #FF5B00;
-}
-.form-input-update-users span{
-    color: #FF5B00;
-    font-size: 20px;
-}
-.input-distance-update-users{
-    margin-bottom: 25px;
-}
-.input-distance-update-users button{
-    width: 100%;
-    padding-top: 8px;
-    padding-bottom: 8px;
     color: white;
     background-color: #FF5B00;
-    border: 1px solid #FF5B00;
-    border-radius: 5px;
-    cursor: pointer;
     transition: all .3s ease-in-out;
 }
-
-.input-distance-update-users button:hover{
+.btn-category-add:hover{
     box-shadow: 0 0 20px #FF5B00;
 }
+.table-view{
+    /* border: 1px solid white; */
+    width: 100%;
+    min-width: 80%;
+}
+.table-view th{
+    text-align: left;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    border-bottom: 1px solid #3E3E3E;
+}
+.table-body td{
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #3E3E3E;
+}
+.des-category{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px;
+}
+.table-body tr:hover{
+    background-color: #161a1fc3;
+}
+.button-action{
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+.detail-btn{
+    background-color: #FF5B00;
+}
+.edit-btn{
+    background-color: #FFB800;
+}
+.delete-btn{
+    background-color: #FF0000;
+}
+.aurhor-container-table{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.btn-group{
+    display: flex; 
+    gap: 3px;
+    align-items: center;
+}
+
 /* //body */
 
 /* responsive design */

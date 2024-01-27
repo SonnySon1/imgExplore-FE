@@ -175,16 +175,16 @@ background: linear-gradient(180deg, rgba(255,91,0,1) 0%, rgba(255,123,0,1) 0%, r
 .close-button:hover{
     color: #cd4800;
 }
-.container-update-users{
+.container-add-category{
     margin-top: 53px;
     gap: 39px;
     display: flex;
 }
-.form-input-update-users {
+.form-input-add-category{
     /* background-color: #2D293C; */
     width: 100%;
 }
-.input-distance-update-users select{
+.input-distance-add-category select{
     background-color: #1b1f27 !important;
 }
 .input-form{
@@ -205,14 +205,14 @@ background: linear-gradient(180deg, rgba(255,91,0,1) 0%, rgba(255,123,0,1) 0%, r
    border: 1px solid #FF5B00; 
    box-shadow: 0 0 8px #FF5B00;
 }
-.form-input-update-users span{
+.form-input-add-category span{
     color: #FF5B00;
     font-size: 20px;
 }
-.input-distance-update-users{
+.input-distance-add-category{
     margin-bottom: 25px;
 }
-.input-distance-update-users button{
+.input-distance-add-category button{
     width: 100%;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -224,7 +224,7 @@ background: linear-gradient(180deg, rgba(255,91,0,1) 0%, rgba(255,123,0,1) 0%, r
     transition: all .3s ease-in-out;
 }
 
-.input-distance-update-users button:hover{
+.input-distance-add-category button:hover{
     box-shadow: 0 0 20px #FF5B00;
 }
 /* //body */
