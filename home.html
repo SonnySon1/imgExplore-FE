@@ -10,15 +10,15 @@
 <body>
      <!-- header -->
      <head>
-        <div class="container">
-        <ul class="header">
+        <div class="container" id="navbar">
+        <ul class="header" id="header">
             <li class="title">.imgExplore</li>
             <nav class="navbar">
                  <li>
                      <ul>
                          <li><a href="" class="active">Home</a></li>
-                         <li><a href="">Explore</a></li>
-                         <li><a href="">Category</a></li>
+                         <li><a href="explore.html">Explore</a></li>
+                         <li><a href="categories.html">Category</a></li>
                          <li><a href="">About </a></li>
                      </ul>
                  </li>
@@ -40,9 +40,8 @@
     <!-- //background -->
     <!-- main -->
         <main>
-            <div class="main">
-                <div class="">
-                    <section class="container" style="height: 630px;">
+                <section class="container" id="content_hiro">
+                     <div class="main">
                         <div class="container-text-top-home">
                             <P class="title-home">Show off your work & find your inspiration</P>
                             <div class="sub-title-home">
@@ -90,8 +89,10 @@
                                 </div>
                             </div>
                         </div>
-                    </section>
-                    <section class="gradient-section-to-r container-sec2">
+                    </div>
+                </section>
+                <section class="gradient-section-to-r container-sec2">
+                    <div class="main">
                         <div class="container wrapping-sec2">
                             <div class="container-image-sec2">
                                 <div class="wrapping-image-sec2">
@@ -106,9 +107,10 @@
                                 </div>
                             </div>
                         </div>
-                    </section>
-                   
-                    <section class="dark-section container-sec3">
+                    </div>
+                </section>
+                <section class="dark-section container-sec3">
+                    <div class="main">
                         <div class="container wrapping-sec3">
                             <div class="container-text-imgsec3">
                                 <div class="wrapping-text-imgsec3">
@@ -116,16 +118,17 @@
                                     <p>Vestibulum lacinia arcu eget nulla</p>
                                     <a href="" class="btn-explore-sec3">Explore</a>
                                 </div>
-                            </div>
+                            </div> 
                             <div class="container-image-sec3">
                                 <div class="wrapping-image-sec3">
                                     <img src="assets/img/section/3.svg" alt="">
                                 </div>
                             </div>
                         </div>
-                    </section>
-                    
-                    <section class="gradient-section-to-l container-sec4">
+                    </div>
+                </section>
+                <section class="gradient-section-to-l container-sec4">
+                    <div class="main">
                         <div class="container wrapping-sec4">
                             <div class="wrapping-text-sec4">
                                 <h1>LOG IN TO START YOUR NEW WORLD</h1>
@@ -169,12 +172,39 @@
                                 </div>
                             </div>
                         </div>
-                    </section>
-                   
-                </div>
+                    </div>
+                </section>
             </div>
         </main>
     <!-- //main -->
-    
+
+    <!-- footer -->
+        <footer>
+            <div class="footer-container">
+                    <p>© Copyright imgExplore. All Rights Reserved Designed by imgExplore</p>
+                </div>
+        </footer>
+    <!-- //footer -->
+    <!-- <script>
+        const navbar = document.getElementById('navbar');
+        const header = document.getElementById('header');
+        const content_hiro = document.getElementById('content_hiro')
+
+        window.addEventListener('scroll', ()=>{
+            const scrollPosition = window.scrollY;
+
+            if (scrollPosition > 200) {
+                navbar.classList.remove('container')
+                header.classList.remove('header')
+                header.classList.add('header-scroll')
+                content_hiro.classList.add('content-scroll')
+            }else if(scrollPosition ){
+                header.classList.remove('header-scroll')
+                content_hiro.classList.remove('content-scroll')
+                navbar.classList.add('container')
+                header.classList.add('header')
+            }
+        });
+    </script> -->
 </body>
 </html>
