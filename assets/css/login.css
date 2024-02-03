@@ -140,21 +140,7 @@ background: linear-gradient(180deg, rgba(255,91,0,1) 0%, rgba(255,123,0,1) 0%, r
     right: 25px;
     bottom: 100px;
     /* top: 5px; */
-    background: rgb(255,91,0);
-background: linear-gradient(180deg, rgba(255,91,0,1) 0%, rgba(255,123,0,1) 0%, rgba(142,100,91,1) 25%, rgba(12,70,152,1) 64%);
-    border-radius: 500px;
-    filter: blur(160px);
-}
-.child-shape3{
-    position: absolute;
-    z-index: -10000;
-    width: 302px;
-    height: 286px;
-    left: 50%;
-    transform: translate(-50%);
-    bottom: 0px;
-    background: rgb(255,91,0);
-    background: linear-gradient(180deg, rgba(255,91,0,1) 0%, rgba(255,123,0,1) 0%, rgba(142,100,91,1) 25%, rgba(12,70,152,1) 64%);
+    background: #FF5B00;
     border-radius: 500px;
     filter: blur(160px);
 }
